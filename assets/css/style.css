@@ -829,7 +829,7 @@
     line-height: 1.6;
   }
   .download-button {
-    background-color: #ffc107; /* Orange-yellow-crayola color */
+    background-color: #e0a03e; /* Orange-yellow-crayola color */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -841,7 +841,7 @@
   }
   
   .download-button:hover {
-    background-color: #ff9800; /* Orange with a slightly darker shade on hover */
+    background-color: #ffc107; /* Orange with a slightly darker shade on hover */
   }
   
   
