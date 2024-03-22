@@ -1,12 +1,8 @@
-/**
- * copyright 2023 @mohitkumar
- */
+/* copyright 2023 @mohitkumar*/
 
 :root {
 
-    /**
-     * colors
-     */
+    /* colors */
   
     /* gradient */
   
@@ -56,9 +52,7 @@
     --light-gray-70: hsla(0, 0%, 84%, 0.7);
     --bittersweet-shimmer: hsl(0, 43%, 51%);
   
-    /**
-     * typography
-     */
+    /* typography */
   
     /* font-family */
     --ff-poppins: 'Poppins', sans-serif;
@@ -79,9 +73,7 @@
     --fw-500: 500;
     --fw-600: 600;
   
-    /**
-     * shadow
-     */
+    /* shadow */
     
     --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
     --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
@@ -89,9 +81,7 @@
     --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
     --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
   
-    /**
-     * transition
-     */
+    /* transition */
   
     --transition-1: 0.25s ease;
     --transition-2: 0.5s ease-in-out;
@@ -102,9 +92,7 @@
   
   
   
-  /*------*\
-    #RESET
-  \*------*/
+  /* #RESET */
   
   *, *::before, *::after {
     margin: 0;
@@ -148,9 +136,7 @@
   
   
   
-  /*-------------*\
-    #REUSED STYLE
-  \*-------------*/
+  /* #REUSED STYLE */
   
   .sidebar,
   article {
@@ -283,9 +269,7 @@
   
   
   
-  /*------*\
-    #MAIN
-  \*------*/
+  /* #MAIN */
   
   main {
     margin: 15px 12px;
@@ -297,9 +281,7 @@
   
   
   
-  /*----------*\
-    #SIDEBAR
-  \*----------*/
+  /* #SIDEBAR */
   
   .sidebar {
     margin-bottom: 15px;
@@ -1170,27 +1152,19 @@
   
   
   
-  /*-----------------------------------*\
-    #RESPONSIVE
-  \*-----------------------------------*/
+  /* #RESPONSIVE  */
   
-  /**
-   * responsive larger than 450px screen
-   */
+  /* responsive larger than 450px screen */
   
   @media (min-width: 450px) {
   
-    /**
-     * client
-     */
+    /* client */
   
     .clients-item { min-width: calc(33.33% - 10px); }
   
   
   
-    /**
-     * #PORTFOLIO, BLOG 
-     */
+    /* #PORTFOLIO */
   
     .project-img,
     .blog-banner-box { height: auto; }
@@ -1201,21 +1175,15 @@
   
   
   
-  /**
-   * responsive larger than 580px screen
-   */
+  /* responsive larger than 580px screen */
   
   @media (min-width: 580px) {
   
-    /**
-     * CUSTOM PROPERTY
-     */
+    
   
     :root {
   
-      /**
-       * typography
-       */
+      /* typography */
   
       --fs-1: 32px;
       --fs-2: 24px;
