@@ -1,19 +1,6 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-
 /**
  * copyright 2023 @mohitkumar
  */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
@@ -115,9 +102,9 @@
   
   
   
-  /*-----------------------------------*\
+  /*------*\
     #RESET
-  \*-----------------------------------*/
+  \*------*/
   
   *, *::before, *::after {
     margin: 0;
@@ -161,9 +148,9 @@
   
   
   
-  /*-----------------------------------*\
+  /*-------------*\
     #REUSED STYLE
-  \*-----------------------------------*/
+  \*-------------*/
   
   .sidebar,
   article {
@@ -256,8 +243,8 @@
   }
   
   .has-scrollbar::-webkit-scrollbar {
-    width: 5px; /* for vertical scrollbar */
-    height: 5px; /* for horizontal scrollbar */
+    width: 5px; /* vertical scrollbar */
+    height: 5px; /* horizontal scrollbar */
   }
   
   .has-scrollbar::-webkit-scrollbar-track {
@@ -296,9 +283,9 @@
   
   
   
-  /*-----------------------------------*\
+  /*------*\
     #MAIN
-  \*-----------------------------------*/
+  \*------*/
   
   main {
     margin: 15px 12px;
@@ -310,9 +297,9 @@
   
   
   
-  /*-----------------------------------*\
+  /*----------*\
     #SIDEBAR
-  \*-----------------------------------*/
+  \*----------*/
   
   .sidebar {
     margin-bottom: 15px;
@@ -450,9 +437,8 @@
   
   
   
-  /*-----------------------------------*\
-    #NAVBAR
-  \*-----------------------------------*/
+  /*--#NAVBAR--*/
+  
   
   .navbar {
     position: fixed;
@@ -491,9 +477,7 @@
   
   
   
-  /*-----------------------------------*\
-    #ABOUT
-  \*-----------------------------------*/
+  /* #ABOUT */
   
   .about .article-title { margin-bottom: 15px; }
   
@@ -508,9 +492,7 @@
   
   
   
-  /**
-   * #service 
-   */
+  /* #service */
   
   .service { margin-bottom: 35px; }
   
@@ -556,9 +538,7 @@
   }
   
   
-  /**
-   * #testimonials 
-   */
+  /* #testimonials */
   
   .testimonials { margin-bottom: 30px; }
   
@@ -608,9 +588,7 @@
   }
   
   
-  /**
-   * #testimonials-modal
-   */
+  /* #testimonials-modal */
   
   .modal-container {
     position: fixed;
@@ -722,54 +700,13 @@
   }
   
   
-  /**
-   * #clients 
-   */
   
-  .clients { margin-bottom: 15px; }
-  
-  .clients-list {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 15px;
-    margin: 0 -15px;
-    padding: 25px;
-    padding-bottom: 25px;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    overscroll-behavior-inline: contain;
-    scroll-snap-type: inline mandatory;
-    scroll-padding-inline: 25px;
-  }
-  
-  .clients-item {
-    min-width: 50%;
-    scroll-snap-align: start;
-  }
-  
-  .clients-item img {
-    width: 100%;
-    filter: grayscale(1);
-    transition: var(--transition-1);
-  }
-  
-  .clients-item img:hover { filter: grayscale(0); }
-  
-  
-  
-  
-  
-  /*-----------------------------------*\
-    #RESUME
-  \*-----------------------------------*/
+  /* #RESUME */
   
   .article-title { margin-bottom: 30px; }
   
   
-  /**
-   * education and experience 
-   */
+  /* education and experience */
   
   .timeline { margin-bottom: 30px; }
   
@@ -829,7 +766,7 @@
     line-height: 1.6;
   }
   .download-button {
-    background-color: #e0a03e; /* Orange-yellow-crayola color */
+    background-color: #e0a03e; 
     color: white;
     padding: 10px 20px;
     border: none;
@@ -841,14 +778,12 @@
   }
   
   .download-button:hover {
-    background-color: #ffc107; /* Orange with a slightly darker shade on hover */
+    background-color: #ffc107; 
   }
   
   
   
-  /**
-   * skills 
-   */
+  /* skills */
   
   .skills-title { margin-bottom: 20px; }
   
@@ -887,9 +822,7 @@
   
   
   
-  /*-----------------------------------*\
-    #PORTFOLIO
-  \*-----------------------------------*/
+  /* #PORTFOLIO */
   
   .filter-list { display: none; }
   
@@ -1046,9 +979,7 @@
   
   
   
-  /*-----------------------------------*\
-    #BLOG
-  \*-----------------------------------*/
+  /* #Portfolio */
   
   .blog-posts { margin-bottom: 10px; }
   
@@ -1134,9 +1065,7 @@
   
   
   
-  /*-----------------------------------*\
-    #CONTACT
-  \*-----------------------------------*/
+  /* #CONTACT */
   
   .mapbox {
     position: relative;
@@ -1300,9 +1229,7 @@
   
   
   
-    /**
-     * #REUSED STYLE
-     */
+    /*  #REUSED STYLE */
   
     .sidebar, article {
       width: 520px;
@@ -1329,9 +1256,7 @@
   
   
   
-    /**
-     * #MAIN
-     */
+    /*  #MAIN */
   
     main {
       margin-top: 60px;
@@ -1340,9 +1265,7 @@
   
   
   
-    /**
-     * #SIDEBAR
-     */
+    /* #SIDEBAR */
   
     .sidebar {
       max-height: 180px;
@@ -1385,9 +1308,7 @@
   
   
   
-    /**
-     * #NAVBAR
-     */
+    /* #NAVBAR */
   
     .navbar { border-radius: 20px 20px 0 0; }
   
@@ -1397,9 +1318,7 @@
   
   
   
-    /**
-     * #ABOUT
-     */
+    /* #ABOUT */
   
     .about .article-title { margin-bottom: 20px; }
   
@@ -1486,18 +1405,6 @@
       flex-grow: 1;
       width: 35px;
     }
-  
-    /* clients */
-  
-    .clients-list {
-      gap: 50px;
-      margin: 0 -30px;
-      padding: 45px;
-      scroll-padding-inline: 45px;
-    }
-  
-    .clients-item { min-width: calc(33.33% - 35px); }
-  
   
   
     /**
