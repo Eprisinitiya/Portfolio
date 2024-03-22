@@ -1407,9 +1407,7 @@
     }
   
   
-    /**
-     * #RESUME
-     */
+    /* #RESUME */
   
     .timeline-list { margin-left: 65px; }
   
@@ -1425,9 +1423,7 @@
   
   
   
-    /**
-     * #PORTFOLIO, BLOG
-     */
+    /*  #PORTFOLIO */
   
     .project-img, .blog-banner-box { border-radius: 16px; }
   
@@ -1437,9 +1433,7 @@
   
   
   
-    /**
-     * #CONTACT
-     */
+    /* #CONTACT */
   
     .mapbox {
       height: 380px;
@@ -1468,15 +1462,11 @@
   
   
   
-  /**
-   * responsive larger than 768px screen
-   */
+  /* responsive larger than 768px screen */
   
   @media (min-width: 768px) {
   
-    /**
-     * REUSED STYLE
-     */
+    /* REUSED STYLE */
   
     .sidebar, article { width: 700px; }
   
@@ -1484,9 +1474,7 @@
   
   
   
-    /**
-     * SIDEBAR
-     */
+    /* SIDEBAR */
   
     .contacts-list {
       grid-template-columns: 1fr 1fr;
@@ -1495,17 +1483,13 @@
   
   
   
-    /**
-     * NAVBAR
-     */
+    /* NAVBAR */
   
     .navbar-link { --fs-8: 15px; }
   
   
   
-    /**
-     * ABOUT
-     */
+    /* ABOUT */
   
     /* testimonials modal */
   
@@ -1518,9 +1502,7 @@
   
   
   
-    /**
-     * PORTFOLIO
-     */
+    /* PORTFOLIO */
   
     .article-title { padding-bottom: 20px; }
   
@@ -1545,15 +1527,13 @@
   
     .filter-item button.active { color: var(--orange-yellow-crayola); }
   
-    /* portfolio and blog grid */
+    /* portfolio grid */
   
     .project-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
   
   
   
-    /**
-     * CONTACT
-     */
+    /* CONTACT */
   
     .input-wrapper { grid-template-columns: 1fr 1fr; }
   
@@ -1568,21 +1548,14 @@
   
   
   
-  /**
-   * responsive larger than 1024px screen
-   */
+  /* responsive larger than 1024px screen */
   
   @media (min-width: 1024px) {
   
-    /**
-     * CUSTOM PROPERTY
-     */
-  
+    
     :root {
   
-      /**
-      * shadow
-      */
+      /* shadow*/
   
       --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.125);
       --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.125);
@@ -1592,9 +1565,7 @@
   
   
   
-    /**
-     * REUSED STYLE
-     */
+    /* REUSED STYLE */
   
     .sidebar, article {
       width: 950px;
@@ -1603,9 +1574,7 @@
   
   
   
-    /**
-     * MAIN 
-     */
+    /* MAIN */
   
     main { margin-bottom: 60px; }
   
@@ -1617,9 +1586,7 @@
   
   
   
-    /**
-     * NAVBAR
-     */
+    /* NAVBAR */
   
     .navbar {
       position: absolute;
@@ -1642,9 +1609,7 @@
   
   
   
-    /**
-     * ABOUT
-     */
+    /* ABOUT */
   
     /* service */
   
@@ -1663,17 +1628,9 @@
   
   
   
-    /**
-     * PORTFOLIO
-     */
+    /* PORTFOLIO */
   
     .project-list { grid-template-columns: repeat(3, 1fr); }
-  
-  
-  
-    /**
-     * BLOG
-     */
   
     .blog-banner-box { height: 230px; }
   
@@ -1683,15 +1640,11 @@
   
   
   
-  /**
-   * responsive larger than 1250px screen
-   */
+  /* responsive larger than 1250px screen */
   
   @media (min-width: 1250px) {
   
-    /**
-     * RESET
-     */
+    /* RESET */
   
     body::-webkit-scrollbar { width: 20px; }
   
@@ -1711,9 +1664,7 @@
   
   
   
-    /**
-     * REUSED STYLE
-     */
+    /* REUSED STYLE */
   
     .sidebar, article { width: auto; }
   
@@ -1721,9 +1672,7 @@
   
   
   
-    /**
-     * MAIN
-     */
+    /* MAIN */
   
     main {
       max-width: 1200px;
@@ -1742,9 +1691,7 @@
   
   
   
-    /**
-     * SIDEBAR
-     */
+    /* SIDEBAR */
   
     .sidebar {
       position: sticky;
@@ -1796,9 +1743,7 @@
   
   
   
-    /**
-       * RESUME
-       */
+    /* RESUME */
   
     .timeline-text { max-width: 700px; }
   
